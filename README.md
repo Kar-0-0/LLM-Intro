@@ -1,2 +1,10 @@
 # LLM-Intro
-Intro to LLMs: Starting from Bigram model to a Neural Net
+Intro to LLMs: 
+
+1. Implement Bigram Model 
+    -
+
+2. Implement a Nerual Net 
+    -
+
+    
