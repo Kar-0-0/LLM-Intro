@@ -1,5 +1,5 @@
 # LLM-Intro
-Intro to LLMs: 
+# Steps
 
 1. Implement Bigram Model 
     -
@@ -7,4 +7,3 @@ Intro to LLMs:
 2. Implement a Nerual Net 
     -
 
-    
