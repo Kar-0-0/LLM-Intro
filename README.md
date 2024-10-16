@@ -9,4 +9,7 @@
 - Count appearance of each pair
 - Take counts and create probability for how likley the second letter is to come out the first
 - Feed it through tool that samples based off of probability and concatenate to form names
+- Calculate loss by taking the mean of the negative of the log of the probability 
 
+# Approach 2:
+-
