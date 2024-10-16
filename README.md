@@ -17,12 +17,12 @@
 
 # On My Own:
 ## Trigram Model:
-- - Built trigram model using approach 1
-- - Take name and make into groups of three... ex. emma --> ..e, .em, emm, mma, ma., a..
-- - Count appearance of each three
-- - Normalize rows to find probability of each group
-- - Use torch.multinomial() to take sample based off of probability
-- - Take sample and attatch it to name but then make the new sample by feeding previous 2 words to get third word
-- - Calculate loss by taking the average of the log likelihood (log_liklihood += torch.log(probabilities))
-- - Take negative for NLLLoss
-- - Loss is at 1.9166
+-  Built trigram model using approach 1
+-  Take name and make into groups of three... ex. emma --> ..e, .em, emm, mma, ma., a..
+-  Count appearance of each three
+-  Normalize rows to find probability of each group
+-  Use torch.multinomial() to take sample based off of probability
+-  Take sample and attatch it to name but then make the new sample by feeding previous 2 words to get third word
+-  Calculate loss by taking the average of the log likelihood (log_liklihood += torch.log(probabilities))
+-  Take negative for NLLLoss
+-  Loss is at 1.9166
