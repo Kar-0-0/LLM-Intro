@@ -12,6 +12,7 @@
 
 # Approach 2:
 ## Implement Nerual Net
+* I think something went wrong because I am not getting the same loss as my counting model and this model is garbage
 - First form data set of bigrams (first letter is an input and the second letter is the output)
 - Encode x using F.one_hot()...this creates vector that has a one at xth index  --> ex. "a" = 0 so [1, 0, 0, 0...]
 - Create weight matrix using torch.randn 
