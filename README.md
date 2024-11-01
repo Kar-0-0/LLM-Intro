@@ -35,9 +35,9 @@
 -  Loss is at 1.9166
 #### Approach Two
 - Something went wrong because I am not getting the same loss as my counting model and this model isn't performing well
-- First form data set of bigrams (first letter is an input and the second letter is the output)
+- First form data set of trigrams (first two letters is an input and the third letter is the output)
 - Encode x using multi_hot(tuple, num_classes)...this creates vector that has a one at x[i] and x[j] index  --> ex. ("a", "b") = (1, 2) so [0, 1, 2, 0...]
-- Create weight matrix using torch.randn 
+- Create weight matrix using torch.randn((r, c)) 
 - Multiply input vector with weight matrix to get ouput
 - Expenentiate values then sum along the rows 
 - Calculate loss with this by taking the negative log and then mean of the probabilities
