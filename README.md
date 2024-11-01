@@ -43,12 +43,13 @@
 - Calculate loss with this by taking the negative log and then mean of the probabilities
 
 # Multi-Layer Perceptron (https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf)
+## Draft One
 - Initialize weights and biases
 - Take input and embed it using the look up table 
 - Backwards pass to optimize model
 - Use learning rate decay to minimize loss
 - sample using torch multinomial
-
+## Draft Two:
     TODO:
-        - Tune hyperparamters
-        - Implement one new thing from paper
+    - Tune hyperparamters
+    - Implement one new thing from paper
