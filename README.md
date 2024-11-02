@@ -58,8 +58,9 @@
 - Loss when context = 7 --> 2.21 (19,897)
 - Loss when context = 5 --> 2.16 (15,897)
 - Best were context length of 4 and 5
-- Name comparison: CL = 4 --> [arcee, athik, raylynn, svin, evia, willan, araiyannony, blarianna, rohson, reinder]
-                   CL = 5 --> [tethea, beel, amaryia, tasia, maylee, deyssa, syove, maleesen, guilla, remton]
+- Name comparison: 
+    - CL = 4 --> [arcee, athik, raylynn, svin, evia, willan, araiyannony, blarianna, rohson, reinder]
+    - CL = 5 --> [tethea, beel, amaryia, tasia, maylee, deyssa, syove, maleesen, guilla, remton]
 - Names when context length = 5 are much better 
     TODO:
     - Tune hidden layer size
