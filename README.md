@@ -62,6 +62,7 @@
     - CL = 4 --> [arcee, athik, raylynn, svin, evia, willan, araiyannony, blarianna, rohson, reinder]
     - CL = 5 --> [tethea, beel, amaryia, tasia, maylee, deyssa, syove, maleesen, guilla, remton]
 - Names when context length = 5 are much better 
-    TODO:
+
+- TODO:
     - Tune hidden layer size
     - Implement something else from paper
