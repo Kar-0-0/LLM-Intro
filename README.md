@@ -33,6 +33,7 @@
 -  Calculate loss by taking the average of the log likelihood (log_liklihood += torch.log(probabilities))
 -  Take negative for NLLLoss
 -  Loss is at 1.9166
+
 #### Approach Two
 - Something went wrong because I am not getting the same loss as my counting model and this model isn't performing well
 - First form data set of trigrams (first two letters is an input and the third letter is the output)
@@ -48,8 +49,18 @@
 - Take input and embed it using the look up table 
 - Backwards pass to optimize model
 - Use learning rate decay to minimize loss
-- sample using torch multinomial
+- Sample using torch multinomial
+
 ## Draft Two:
+- First I will try to see what happens when I increase the context length
+- Loss when context = 3 --> 2.16 (11,897)
+- Loss when context = 4 --> 2.12 (13,897)
+- Loss when context = 7 --> 2.21 (19,897)
+- Loss when context = 5 --> 2.16 (15,897)
+- Best were context length of 4 and 5
+- Name comparison: CL = 4 --> [arcee, athik, raylynn, svin, evia, willan, araiyannony, blarianna, rohson, reinder]
+                   CL = 5 --> [tethea, beel, amaryia, tasia, maylee, deyssa, syove, maleesen, guilla, remton]
+- Names when context length = 5 are much better 
     TODO:
-    - Tune hyperparamters
-    - Implement one new thing from paper
+    - Tune hidden layer size
+    - Implement something else from paper
