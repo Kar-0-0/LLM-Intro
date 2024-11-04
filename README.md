@@ -62,20 +62,24 @@
     - CL = 4 --> [arcee, athik, raylynn, svin, evia, willan, araiyannony, blarianna, rohson, reinder]
     - CL = 5 --> [tethea, beel, amaryia, tasia, maylee, deyssa, syove, maleesen, guilla, remton]
 - Names when context length = 5 are much better 
-    - Hidden Layer with 400 neurons (31,497)
-        - Loss: 2.15 
-        - Names are worse
-    - Hidden Layer with 300 Neurons (23,697)
-        - Loss: 2.15
-        - Names are a bit better but still worse than 200 neurons
-    - Hidden Layer with 100 Neurons (8,097)
-        - Loss: 2.16
-        - Names were much better than the 300 & 400 Neuron 
-    - Hidden Layer with 50 Neurons (4,197)
-        - Loss 2.20
-        - Names are much worse
-    - Hidden Layer with 800 Neurons (62,697)
-        - 
+- Hidden Layer with 400 neurons (31,497)
+    - Loss: 2.15 
+    - Names are worse
+- Hidden Layer with 300 Neurons (23,697)
+    - Loss: 2.15
+    - Names are a bit better but still worse than 200 neurons
+- Hidden Layer with 100 Neurons (8,097)
+    - Loss: 2.16
+    - Names were much better than the 300 & 400 Neuron 
+- Hidden Layer with 50 Neurons (4,197)
+    - Loss 2.20
+    - Names are much worse
+- Hidden Layer with 800 Neurons (62,697)
+    - Loss: 2.26
+    - Names aren't very good
 - TODO:
-    - Tune hidden layer size
     - Implement something else from paper
+
+
+# Activations & Gradients, Batch Norm
+- 
