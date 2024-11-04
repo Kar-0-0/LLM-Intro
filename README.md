@@ -52,7 +52,7 @@
 - Sample using torch multinomial
 
 ## Draft Two:
-- First I will try to see what happens when I increase the context length
+#### Context Length Tuning
 - Loss when context = 3 --> 2.16 (11,897)
 - Loss when context = 4 --> 2.12 (13,897)
 - Loss when context = 7 --> 2.21 (19,897)
