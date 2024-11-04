@@ -62,6 +62,7 @@
     - CL = 4 --> [arcee, athik, raylynn, svin, evia, willan, araiyannony, blarianna, rohson, reinder]
     - CL = 5 --> [tethea, beel, amaryia, tasia, maylee, deyssa, syove, maleesen, guilla, remton]
 - Names when context length = 5 are much better 
+#### Hidden Layer Tuning
 - Hidden Layer with 400 neurons (31,497)
     - Loss: 2.15 
     - Names are worse
